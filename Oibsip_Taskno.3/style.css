@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@500&family=Handjet:wght@300&family=Raleway:wght@100&family=Rampart+One&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Edu SA Beginner', cursive;
+    background: linear-gradient(to right,rgb(58, 1, 93),rgb(217, 217, 246));
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-color: rgb(160, 212, 212);
+}
+
+#calcTemp {
+    padding: 50px 62px;
+    min-height: 299px;
+    background-color: #c343df;
+    border: 5px solid  ;
+    box-shadow: rgba(186, 155, 155, 0.12) 0px 1px 3px, rgba(217, 169, 169, 0.24) 0px 1px 2px;
+}
+
+label {
+    font-size: 30px;
+    line-height: 78px;
+}
+
+#temp {
+    width: 90px;
+    height: 34px;
+    border-radius: 5px;
+    margin: 12px;
+    padding: 8px;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+}
+
+#temp_diff {
+    width: 120px;
+    height: 34px;
+    border-radius: 5px;
+    margin: 12px;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+}
+
+#submit {
+    width: 100px;
+    border-radius: 5px;
+    margin: 30px 0 20px 0;
+    font-size: 18px;
+    background-color: rgb(218 229 220);
+    padding: 5px;
+    transition: all 0.5s ease;
+}
+
+#submit:hover{
+    background-color: antiquewhite;
+    cursor: pointer;
+}
+
+#result{
+    font-size: 27px;
+}
