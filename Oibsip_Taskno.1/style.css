@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@500&family=Handjet:wght@300&family=Raleway:wght@100&family=Rampart+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{max-width: 80vw;
+    font-family: 'Handjet', cursive;
+
+
+
+}
+.navbar{
+    display: flex;
+    height: 67px;
+}
+.navbar li{
+    list-style: none;
+    margin: 0 12px;
+}
+
+.topleft{
+    width: 50%;
+}
+
+.topright{
+    width: 50%;
+}
+.section1{
+    max-height: 100vh;
+    color: rgb(71, 1, 15);
+}
+
+.section1 h1{
+    color: rgb(72, 5, 5);
+    font-size: 3rem;
+}
+
+.dumbelling{
+    width: 289px;
+
+}
+
+.topright .gyming{
+    width: 465px;
+}
+
+.section2{
+    padding: 75px;
+
+}
+
+.section2 h1{
+    font-size: 2.5rem;
+}
+
+.section2 p{
+    padding: 0 9vw;
+    text-align: center;
+}
+
+.box{
+    padding: 9px 0;
+    margin: 10px 20px;
+    min-width: 22vw;
+    border: 3px solid rgb(120, 3, 3);
+    border-radius: 8px;
+    text-align: center;
+}
+.box h2{
+    font-size: 3rem;
+    padding: 15px 0;
+
+}
+
+.highlighted{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.box ul{
+    list-style-type: none;
+}
+
+.box ul li{
+    margin: 10px 2px;
+}
+.plantable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3 table{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 120px;
+    border-collapse: collapse;
+}
+
+.section3 table th{
+    width: 22vw;
+    border-bottom: 3px solid black;
+    padding: 16px 0;
+}
+
+.section3 table td{
+    border-bottom: 2px solid black;
+}
+
+.section3 h1{
+    font-size: 2.3rem;
+}
+
+.section3{
+    padding: 73px;
+}
+
+footer{
+    padding: 23px;
+    text-align: center;
+    align-items: center;
+    margin: 12px;
+
+}
+.deal{
+    font-size: 1.3rem;
+    font-weight: bolder;
+    margin: 10px 0;
+}
